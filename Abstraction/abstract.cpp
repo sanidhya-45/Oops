@@ -8,6 +8,7 @@ class Shape {
         Shape() {cout<<"Shape class"<<endl;}
         virtual int area()=0;
         virtual int volume()=0;
+// alsi if a function is made virtaul and equal to zero, then it is a must to implement this function in the derived classes
 };
 
 // this is a derived class
@@ -53,6 +54,7 @@ int main()
     Cube *c= new Cube(1,2,3);
     Rectangle *r= new Rectangle(4,5,6);
     // until the derived class does not overrides all the virtal functions of base class, their object cant be created
+
     cout<<c->area()<<endl;
     cout<<c->volume()<<endl;
     cout<<r->area()<<endl;
