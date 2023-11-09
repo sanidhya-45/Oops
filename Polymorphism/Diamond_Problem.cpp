@@ -24,6 +24,7 @@ class Car{
 class Maruti: virtual public Car{
     public:
     Maruti(){ cout<<"Hello, Maruti"<<endl;}
+    
     void wheel()
     {
         cout<<"Maruti class wheel"<<endl;

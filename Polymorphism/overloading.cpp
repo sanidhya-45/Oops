@@ -38,7 +38,7 @@ int main() {
     cout<<c.sub(2,3)<<endl;
     cout<<c.mul(2,3)<<endl;
     cout<<c.div(2,0)<<endl;
-    c.add(2,0, 8);
+    c.add(2,0,8);
     
     
 return 0;
